@@ -39,6 +39,8 @@ class NeuralNetwork():
         self.menu()
 
     def menu(self):
+
+        inputMenu = None
         os.system("cls")
 
         print("#### Previsão de compras por usuario ####")
